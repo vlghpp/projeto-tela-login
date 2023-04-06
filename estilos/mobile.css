@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+}
+body{
+    background-color: blueviolet;
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 20px;
+    width: 260px;
+    min-height: 520px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+article{
+    display: block;
+    padding: 10px;
+}
+article > h2{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+article > p{
+    margin: 10px;
+    text-align: justify;
+}
+.divImagem{
+    display: block;
+    background-image: url(../imagens/paisagem.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#email{
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+
+}
+#senha{
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+}
+#entrar{
+    display: block; 
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: aquamarine;
+    font-size: 12px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+#entrar:hover{
+    background-color: rgb(54, 80, 71);
+}
+#esqueci{
+    display: block; 
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: white;
+    font-size: 12px;
+    color: rgb(86, 155, 132);
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    overflow-y: hidden;
+}
+#esqueci:hover{
+    background-color: rgba(144, 197, 197, 0.452);
+    color: rgb(56, 112, 94);
+}
+
+#caixa{
+    position: absolute;
+    left: 20%;
+    background-color: rgba(127, 255, 212, 0.568);
+    border: 0;
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    color: black;
+}
+#caixa:focus-within{
+    background-color: white;
+    border: none;
+}
+
+.material-symbols-outlined{
+    margin-top: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+::placeholder{
+    color: rgb(240, 240, 240);
+    text-shadow: 1px 1px 0px black;
+}

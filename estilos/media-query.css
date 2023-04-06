@@ -1,0 +1,131 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background: rgb(95,3,252);
+        background: linear-gradient(180deg, rgba(95,3,252,1) 0%, rgba(104,78,251,1) 37%, rgba(99,108,251,1) 53%, rgba(78,231,251,1) 100%);  
+    }
+    main{
+        width: 80vw;
+        min-height: 320px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    }
+
+    .divImagem{
+        float: left;
+        width: 50%;
+        min-height: 320px;
+        border-top-right-radius: 0 ;
+        border-bottom-left-radius: 20px;
+    }
+    article{
+        float: right;
+        width: 50%;
+    }
+    article > h2{
+        font-size: 20px;
+    }
+    article > p{
+        font-size: 12px;
+    }
+    #caixa{
+        position: absolute;
+        left: 50%;
+        padding: 5px;
+        margin-top: 5px;
+        width: 280px;
+        background-color: rgba(127, 255, 212, 0.568);
+        border: 0;
+    }
+    #caixa:focus-within{
+        background-color: white;
+        border: none;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    body{
+        background: rgb(95,3,252);
+        background: linear-gradient(180deg, rgba(95,3,252,1) 0%, rgba(104,78,251,1) 37%, rgba(99,108,251,1) 53%, rgba(78,231,251,1) 100%);  
+    }
+    main{
+        width: 90vw;
+        height: 10vh;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    }
+    article{
+        float: left;
+        width: 50%;
+    }
+    article > h2{
+        font-size: 25px;
+    }
+    article > p{
+        font-size: 14px;
+    }
+    .divImagem{
+        float: right;
+        width: 50%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 20px;
+        min-height: 521px;
+    }
+    article > p{
+        margin: 20px;
+    }
+    .botoes{
+        margin: 15px;
+    }
+    #caixa{
+        position: absolute;
+        left: 6.5%;
+        padding: 5px;
+        margin-top: 5px;
+        width: 280px;
+        background-color: rgba(127, 255, 212, 0.568);
+        border: 0;
+    }
+    #caixa:focus-within{
+        background-color: white;
+        border: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background: rgb(95,3,252);
+        background: linear-gradient(180deg, rgba(95,3,252,1) 0%, rgba(104,78,251,1) 37%, rgba(99,108,251,1) 53%, rgba(78,231,251,1) 100%);  
+    }
+    main{
+        width: 90vw;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    }
+    article{
+        float: left;
+        width: 45%;
+    }
+    .divImagem{
+        float: right;
+        width: 53%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 20px;
+        min-height: 521px;
+    }
+    article > p{
+        margin: 20px;
+    }
+    .botoes{
+        margin: 15px;
+    }
+    #caixa{
+        position: absolute;
+        left: 6.5%;
+        padding: 5px;
+        margin-top: 5px;
+        width: 280px;
+        background-color: rgba(127, 255, 212, 0.568);
+        border: 0;
+    }
+    #caixa:focus-within{
+        background-color: white;
+        border: none;
+    }
+}
+
+
