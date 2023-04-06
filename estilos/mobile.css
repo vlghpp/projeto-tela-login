@@ -97,7 +97,7 @@ article > p{
     color: rgb(56, 112, 94);
 }
 
-#caixa{
+.caixa{
     position: absolute;
     left: 20%;
     background-color: rgba(127, 255, 212, 0.568);
