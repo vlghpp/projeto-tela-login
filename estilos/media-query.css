@@ -30,7 +30,7 @@
     article > p{
         font-size: 12px;
     }
-    #caixa{
+    .caixa{
         position: absolute;
         left: 59%;
         padding: 5px;
@@ -39,7 +39,7 @@
         background-color: rgba(127, 255, 212, 0.568);
         border: 0;
     }
-    #caixa:focus-within{
+    .caixa:focus-within{
         background-color: white;
         border: none;
     }
